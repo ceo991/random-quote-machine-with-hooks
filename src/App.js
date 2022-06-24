@@ -46,6 +46,7 @@ function App() {
       {
         singleQuote ? <Quote singleQuote={singleQuote} getNewQuote={getNewQuote} tweetQuote={tweetQuote} /> : <div>loading...</div>
       }
+      <h4><a href='https://github.com/ceo991/random-quote-machine-with-hooks' style={{color:"aliceblue",textDecoration: "none"}}>You can see the source code here</a></h4>
     </div>
   );
 }
